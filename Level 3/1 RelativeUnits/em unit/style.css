@@ -1,0 +1,12 @@
+.box1{
+    font-size: 20px;
+}
+
+
+/* font-size:  20px === 1em   => 2em=40px  , 3em=60px */
+/* width:      (itself) 2em  =child*__em              */
+.box2{
+    font-size: 2em;                    /* (20*2= 40px) */
+    width: 5em;                        /* (40*5= 200px)*/
+    background-color: lightcoral;
+}

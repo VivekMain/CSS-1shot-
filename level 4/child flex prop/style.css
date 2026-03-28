@@ -1,0 +1,116 @@
+/* ========================
+   SECTION 1: ORDER
+======================== */
+.parent1 {
+    background-color: #2e2e4d;
+    height: 400px;
+    width: 100%;
+    display: flex;
+}
+
+.childOrder {
+    background-color: #7c6f9f;
+    height: 50px;
+    width: 50px;
+    margin: 20px;
+}
+
+.cOrder1 { order: 5; }
+.cOrder2 { order: 3; }
+.cOrder3 { order: 9; }
+
+
+
+
+/* ========================
+   SECTION 2: FLEX-GROW
+======================== */
+.parent2 {
+    background-color: #1a3a52;
+    height: 400px;
+    width: 100%;
+    display: flex;
+}
+
+.childGrow {
+    background-color: #3a7ca5;
+    height: 50px;
+    width: 50px;
+    margin: 20px;
+}
+
+.cGrow4 { flex-grow: 10; }
+.cGrow8 { flex-grow: 10; }
+
+
+
+
+/* ========================
+   SECTION 3: FLEX-SHRINK
+======================== */
+.parent3 {
+    background-color: #2e2e2e;
+    height: 400px;
+    width: 100%;
+    display: flex;
+}
+
+.childShrink {
+    background-color: #7a4f4f;
+    height: 100px;
+    width: 100px;
+    margin: 20px;
+}
+
+.cShr3  { flex-shrink: 3; }
+.cShr9  { flex-shrink: 10; }
+
+
+
+
+/* ========================
+   SECTION 4: FLEX-BASIS
+======================== */
+.parent4 {
+    background-color: #1e3040;
+    height: 400px;
+    width: 100%;
+    display: flex;
+}
+
+.childBasis {
+    background-color: #4a6680;
+    height: 100px;
+    width: 100px;
+    margin: 20px;
+}
+
+.cBasis3 {
+    flex-basis: 2000px;
+    /* 
+    flex shorthand: flex: _grow_  _shrink_  _basis_; 
+    We use flex: _ _ _ to do 3 things in one shortcut.
+    */
+}
+
+
+
+
+/* ========================
+   SECTION 5: ALIGN-SELF
+======================== */
+.parent5 {
+    background-color: #2a2a2a;
+    height: 400px;
+    width: 100%;
+    display: flex;
+}
+
+.childAlign {
+    background-color: #6b5a7e;
+    height: 100px;
+    width: 100px;
+    margin: 20px;
+}
+
+.cAlign5 { align-self: center; }

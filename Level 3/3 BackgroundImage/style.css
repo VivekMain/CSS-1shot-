@@ -1,0 +1,13 @@
+div{
+background-color: lightcoral;
+width: 200px;
+height: 200px;
+display: inline-block;
+}
+
+
+.box1{
+    background-image: url("d204d7256977f11f733a7ddd73c92e5e.jpg");
+    background-size: cover;
+
+}

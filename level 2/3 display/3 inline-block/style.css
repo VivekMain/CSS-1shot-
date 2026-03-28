@@ -1,0 +1,27 @@
+/* Pro users: use inline-block */
+/* display : none (kinda delete the element from html) */
+/* While visibility: hidden keeps the html but hide it. */
+
+div{
+    height: 200px;
+    width: 200px;
+    margin: 20px;
+    padding: 30px;
+    display:inline-block;
+}
+
+.box4{
+    background-color: wheat;
+}
+.box5{
+    background-color: rgb(106, 97, 81);
+    display: none;
+}
+
+.box6{
+    background-color: rgb(50, 44, 34);        
+    visibility: hidden;
+}
+.box7{
+    background-color: rgb(104, 101, 95);
+}

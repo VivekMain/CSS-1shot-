@@ -1,0 +1,17 @@
+.parent{
+    background-color: lightgoldenrodyellow;
+    width: 400px;
+    height: 400px;
+ 
+    display: flex;
+    flex-flow: wrap row;
+    gap: 20px;
+}
+
+
+.child{
+    background-color: blue;
+    height: 20%;
+    width: 20%;
+
+}

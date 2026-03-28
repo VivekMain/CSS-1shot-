@@ -1,0 +1,95 @@
+/* 
+    Alignment along (horizontal(drctn-row)) main axis. 
+    Justify-content: 
+        flex-start/ centre / flex-end /space-evenly/...etc. 
+
+ */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+
+    background-color: black;
+}
+
+
+
+.parent{
+    background-color:#1abc9c;
+    width:50%;
+    height:150px;
+    display:flex;
+    justify-content: flex-start;
+
+    margin-bottom:20px;
+}
+
+.child{
+    background-color:#16a085;
+    height:50px;
+    width:50px;
+    margin:10px;
+}
+
+
+/* Parent 2 */
+
+.parent2{
+    background-color:#3498db;
+    width:50%;
+    height:150px;
+    display:flex;
+    justify-content: center;
+
+    margin-bottom:20px;
+}
+
+.child2{
+    background-color:#2980b9;
+    height:50px;
+    width:50px;
+    margin:10px;
+}
+
+
+/* Parent 3 */
+
+.parent3{
+    background-color:#9b59b6;
+    width:50%;
+    height:400px;
+    display:flex;
+    justify-content: flex-end;
+
+    margin-bottom:20px;
+}
+
+.child3{
+    background-color:#8e44ad;
+    height:50px;
+    width:50px;
+    margin:10px;
+}
+
+
+/* Parent 4 */
+
+.parent4{
+    background-color:#f39c12;
+    width:50%;
+    height:400px;
+    display:flex;
+    justify-content:space-evenly;
+}
+
+.child4{
+    background-color:#d35400;
+    height:50px;
+    width:50px;
+    margin:10px;
+}

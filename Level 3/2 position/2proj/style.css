@@ -1,0 +1,45 @@
+/* 1st Thing */
+
+.parent{
+    background-color: darkblue;
+    height: 500px;
+    width: 800px;
+    position: relative;
+}
+
+
+.child{
+    background-color:lightblue ;
+    height: 150px;
+    width: 150px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* 2nd Thing */
+
+.parent2{
+    background-color: darkgray;
+    height: 500px;
+    width: 800px;
+    /* position: relative; */
+}
+.child2{
+    background-color: rgb(103, 85, 85);
+    height: 150px;
+    width: 150px;
+    position: absolute;
+    top: 0;
+    right: 0;   
+}

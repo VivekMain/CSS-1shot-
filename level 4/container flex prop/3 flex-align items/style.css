@@ -1,0 +1,88 @@
+/* 
+    Alignment along (vertical) cross axis. 
+    align-items: 
+        flex-start/ centre / flex-end /space-evenly/...etc. 
+
+ */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+
+    background-color: black;
+}
+
+
+
+
+
+
+
+
+
+/* Parent 1 */
+
+.parent{
+    background-color:#1abc9c;
+    width:50%;
+    height:300px;
+    display:flex;
+
+    /*           (by default) */
+    align-items: flex-start; 
+
+    margin-bottom:20px;
+}
+
+.child{
+    background-color:#16a085;
+    height:50px;
+    width:50px;
+    margin:10px;
+}
+
+
+/* Parent 2 */
+
+.parent2{
+    background-color:#3498db;
+    width:50%;
+    height:300px;
+    display:flex;
+    align-items: center;
+
+    margin-bottom:20px;
+}
+
+.child2{
+    background-color:#2980b9;
+    height:50px;
+    width:50px;
+    margin:10px;
+}
+
+
+/* Parent 3 */
+
+.parent3{
+    background-color:#9b59b6;
+    width:50%;
+    height:400px;
+    display:flex;
+    align-items: flex-end;
+
+    margin-bottom:20px;
+}
+
+.child3{
+    background-color:#8e44ad;
+    height:50px;
+    width:50px;
+    margin:10px;
+}
+

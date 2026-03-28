@@ -1,0 +1,98 @@
+/* Static boxes */
+/* chipka hua body se (bydefault) */
+.boxS{
+    display: inline-block;
+    background-color: lightblue;
+    margin: 20px;
+    height: 50px;
+    width: 50px;
+}
+
+
+
+.s1{
+    position: static;
+    /* top: 100px; */
+    /* Nothing happens as static (is bydefault at does nothing) */
+}
+
+
+
+
+
+/* Relative boxes */
+
+/* Hawa me and still space booked in body */
+/* Relative to itself */
+.boxR{
+    display: inline-block;
+    background-color: rgb(114, 142, 151);
+    margin: 20px;
+    height: 70px;
+    width: 70px;
+}
+
+.r1{
+    position: relative;
+    top: 50px;
+    background-color: rgb(121, 85, 139);
+}
+
+
+
+
+
+/* Hawa me and no space booked in body (so others will take that space)*/
+/* Absolute boxes */
+.boxA{
+    background-color: rgb(70, 70, 39);
+    display: inline-block;
+    margin: 20px;
+    height: 90px;
+    width: 90px;
+}
+
+.abs1{
+    position: absolute;
+    left: 700px;
+    background-color: rgb(228, 65, 92);
+}
+
+
+
+
+
+/* Completely fixed to the  browser Position  */
+/* Fixed boxes */
+.boxF{
+    background-color: rgb(189, 132, 20);
+    display: inline-block;
+    margin: 20px;
+    height: 120px;
+    width: 120px;
+}
+
+
+.fixed1{
+
+    position: fixed;
+    top: 0px;
+}
+
+
+
+
+
+/* Sticky boxes */
+.boxSt{
+    background-color: rgb(89, 82, 67);
+    display: inline-block;
+    margin: 20px;
+    height: 120px;
+    width: 120px;
+}
+
+
+.sticky1{
+    position: sticky;
+}

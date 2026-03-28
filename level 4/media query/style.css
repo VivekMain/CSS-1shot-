@@ -1,0 +1,25 @@
+/* Level 1 */
+
+@media (min-width:600px) {
+    h1{
+        background-color: blue;
+    }   
+}
+
+@media (max-width:480px) {
+    div{
+        background-color: brown;
+    }
+}
+
+
+/* Level 2 */
+@media (min-width:430) and (max-width){
+    h2{
+        color: blue;
+        background-color: lightblue;
+    }
+}
+
+
+

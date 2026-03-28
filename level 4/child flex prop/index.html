@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox Properties</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- SECTION 1: ORDER -->
+    <h1>Jiska jitna bada order wo utha last me ayega</h1>
+    <h2>eg: order 9 > order 5</h2>
+    <h2>so 9 wala sabse last me then 5 wala 2nd last</h2>
+
+    <div class="parent1">
+        <div class="childOrder cOrder1">box-Order1</div>
+        <div class="childOrder cOrder2">box-Order2</div>
+        <div class="childOrder cOrder3">box-Order3</div>
+        <div class="childOrder cOrder4">box-Order4</div>
+        <div class="childOrder cOrder5">box-Order5</div>
+        <div class="childOrder cOrder6">box-Order6</div>
+        <div class="childOrder cOrder7">box-Order7</div>
+        <div class="childOrder cOrder8">box-Order8</div>
+        <div class="childOrder cOrder9">box-Order9</div>
+        <div class="childOrder cOrder10">box-Order10</div>
+    </div>
+
+
+    <!-- SECTION 2: FLEX-GROW -->
+    <h1>Using flex-grow ham decide kar skte hn ki single-single child kitna grow kr skta h.</h1>
+    <h2>inside flex-grow single child ko grow krte hn (more than 0) then wo bacha hua sara space leleta h</h2>
+
+    <div class="parent2">
+        <div class="childGrow cGrow1">box-Grow1</div>
+        <div class="childGrow cGrow2">box-Grow2</div>
+        <div class="childGrow cGrow3">box-Grow3</div>
+        <div class="childGrow cGrow4">box-Grow4 <br>flex-grow:5</div>
+        <div class="childGrow cGrow5">box-Grow5</div>
+        <div class="childGrow cGrow6">box-Grow6</div>
+        <div class="childGrow cGrow7">box-Grow7</div>
+        <div class="childGrow cGrow8">box-Grow8</div>
+        <div class="childGrow cGrow9">box-Grow9</div>
+        <div class="childGrow cGrow10">box-Grow10</div>
+    </div>
+
+
+    <!-- SECTION 3: FLEX-SHRINK -->
+    <h1>Using flex-shrink ham decide kar skte hn ki single-single child kitna shrink/chota kr skta hai.</h1>
+    <h2>flex-shrink (by default : 1)</h2>
+
+    <div class="parent3">
+        <div class="childShrink cShr1">box-Shr1</div>
+        <div class="childShrink cShr2">box-Shr2</div>
+        <div class="childShrink cShr3">box-Shr3 <br>shrink 3*_</div>
+        <div class="childShrink cShr4">box-Shr4</div>
+        <div class="childShrink cShr5">box-Shr5</div>
+        <div class="childShrink cShr6">box-Shr6</div>
+        <div class="childShrink cShr7">box-Shr7</div>
+        <div class="childShrink cShr8">box-Shr8</div>
+        <div class="childShrink cShr9">box-Shr9 <br>shrink 10*_</div>
+        <div class="childShrink cShr10">box-Shr10</div>
+    </div>
+
+
+    <!-- SECTION 4: FLEX-BASIS -->
+    <h1>flex-basis is used when we strictly want somthing to contain some serious rule.</h1>
+    <h2>eg: giving width to box3 strictly. ki me to usi width me rhunga jo mujhe specially mili h, tum apna dekh lo</h2>
+    <h2>kuch bhi ho me nhi badlunga</h2>
+
+    <div class="parent4">
+        <div class="childBasis cBasis1">box-Basis1</div>
+        <div class="childBasis cBasis2">box-Basis2</div>
+        <div class="childBasis cBasis3">box-Basis3</div>
+        <div class="childBasis cBasis4">box-Basis4</div>
+        <div class="childBasis cBasis5">box-Basis5</div>
+        <div class="childBasis cBasis6">box-Basis6</div>
+        <div class="childBasis cBasis7">box-Basis7</div>
+        <div class="childBasis cBasis8">box-Basis8</div>
+        <div class="childBasis cBasis9">box-Basis9</div>
+        <div class="childBasis cBasis10">box-Basis10</div>
+    </div>
+
+
+    <!-- SECTION 5: ALIGN-SELF (King of position) -->
+    <h1>This is known as king for position in child properties.</h1>
+
+    <div class="parent5">
+        <div class="childAlign cAlign1">box-Align1</div>
+        <div class="childAlign cAlign2">box-Align2</div>
+        <div class="childAlign cAlign3">box-Align3</div>
+        <div class="childAlign cAlign4">box-Align4</div>
+        <div class="childAlign cAlign5">box-Align5</div>
+        <div class="childAlign cAlign6">box-Align6</div>
+        <div class="childAlign cAlign7">box-Align7</div>
+        <div class="childAlign cAlign8">box-Align8</div>
+        <div class="childAlign cAlign9">box-Align9</div>
+        <div class="childAlign cAlign10">box-Align10</div>
+    </div>
+
+</body>
+</html>

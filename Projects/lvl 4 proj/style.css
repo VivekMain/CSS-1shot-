@@ -1,0 +1,39 @@
+html,body{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    color: white;
+}
+
+
+
+ul{
+    background-color: rgb(131, 164, 175);
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+
+}
+
+
+
+.outer{
+    background-color: darkcyan;
+    height: 500px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inner{
+    background-color: lightcyan;
+    height: 200px;
+    width: 200px;
+}

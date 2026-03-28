@@ -1,0 +1,29 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+
+.navbar{
+    background-color: black;
+    height: 50px;
+    padding: 10px;
+}
+
+.navbar .logo{
+    font-size: larger;
+    color: orange;
+}
+
+button{
+    background-color: orange;
+}
+
+ a{
+    margin-right: 200px;
+ }
+
+
+

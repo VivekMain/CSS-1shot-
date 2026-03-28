@@ -1,0 +1,54 @@
+/* Selectors */
+
+/* elements   :      h1{},p{},body{}                        */
+/* universal  :      *{}                                    */
+/* class,id   :      ._forClass_    ,   #_forId_            */
+/* group      :      h1{},h2{},h3{}                         */
+/* descendant :      .card p{}      ,  .card button{}       */
+/* adjacent   :      h1+p{}                                 */
+/* attribute  :      input[type='text']                     */
+/*                          and a lot more                  */
+
+
+
+
+/* Text Properties */
+
+/* text-align */
+/* text-decoration */
+/* font-weight */
+/* font-family */
+
+
+
+
+h1{
+    text-align: right; 
+    /* right = end */
+}
+
+p{
+    text-align: end;
+}
+
+h3{
+    text-decoration: line-through;
+}
+
+a{
+    text-decoration: none;
+    font-weight: bolder;           /* 100-900 */
+}
+
+
+#id1{
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+.class2{
+    text-align: left;
+    line-height: 10px;
+    text-transform: uppercase;
+
+}

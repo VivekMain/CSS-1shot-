@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+
+    /* background-color: black; */
+}
+
+
+
+
+.parent{
+    background-color:#1abc9c;
+    width:50%;
+    height:300px;
+    margin: 20px;
+
+    display: flex;
+    /* flex-wrap: nowrap;     (by default) 
+    In nowrap, they decrease their size to fit (tightly)
+    */
+}
+
+.child{
+    background-color:#333;
+    height:50px;
+    width:50px;
+    margin:10px;
+}
+
+
+.parent2{
+    margin: 20px;
+    background-color:#1abc9c;
+    width:50%;
+    height:300px;
+
+    display: flex;
+    flex-wrap: wrap;
+    /* 
+    In nowrap, instead of fitting tightly, they shift to next row.
+     */
+
+}
+
+.child2{
+    background-color:#333;
+    height:50px;
+    width:50px;
+    margin:10px;
+}

@@ -1,0 +1,171 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
+
+
+
+/* Main nav */
+
+.navbar{
+    padding: 20px;
+    text-align: center;
+}
+
+.navbar{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px;
+}
+
+
+/* left side buttons */
+.fa-search{
+    position: absolute;
+    left: 6%;
+}
+.fa-bars{
+    position: absolute;
+    left: 2%;
+}
+
+
+.centreButtons{
+
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+}
+
+.centreButtons a{
+
+    text-decoration: none;
+    color: black;
+}
+
+/* right side buttons */
+.fa-cog{
+    position: absolute;
+    right: 10%;
+    top: 5%;
+}
+.fa-shopping-cart{
+    position: absolute;
+    right: 6%;
+    top: 5%; 
+}
+.fa-user{
+    right: 2%;
+    position: absolute;
+    top: 5%;
+}
+
+
+
+
+
+.bgkimage{
+    position: relative;
+    height: 100vh;
+
+    background-image: url("https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/5/3/5324c8eNike-DV9858-084_1.jpg?rnd=20200526195200");
+    background-size: contain;
+
+}
+
+
+
+
+/* side card */
+.sideCard{
+    height: 350px;
+    width: 300px; 
+    border-radius: 20px;
+    background-color: black;
+    padding: 20px;
+    position: absolute;
+    top: 150px;
+    right: 2%;
+    color: white
+}
+
+
+.sizes{
+    display:flex;
+    gap:10px;
+    margin-bottom:20px;
+}
+
+.sizes span{
+    border:1px solid #aaa;
+    padding:6px 10px;
+    border-radius:6px;
+    cursor:pointer;
+}
+
+
+button{
+    width:100%;
+    padding:12px;
+    border:none;
+    border-radius:8px;
+    background:linear-gradient(90deg,#3b82f6,#2563eb);
+    color:white;
+    font-size:16px;
+    cursor:pointer;
+}
+
+
+
+
+
+
+
+
+
+/* left side images */
+.leftsideImg img{
+
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+    position: relative;
+    top: 150px;
+    left: 1%;
+    display: grid;
+    margin: 10px;
+}
+
+
+
+
+
+
+/* left up and down =>icons */
+
+.leftsideImg i{
+    position: relative;
+    top: 150px;
+    left: 50px;
+    cursor: pointer;
+
+}
+
+
+
+
+
+
+
+
+i{
+    cursor: pointer;
+}

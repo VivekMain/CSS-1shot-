@@ -1,0 +1,104 @@
+/* Flex models */
+/* main axis, cross axis */
+
+/* Decided by flex-direction 
+    main axis   ===   row(by default), row-reverse, c, c-r 
+
+    row,row-r = horizontal
+    col,c-r   = vertical
+    
+    */
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+
+    background-color: black;
+}
+
+
+
+.parent{
+    background-color:#1abc9c;
+    width:50%;
+    height:150px;
+    
+    display:flex;
+    flex-direction:row;
+    margin-bottom:20px;
+}
+
+.child{
+    background-color:#16a085;
+    height:50px;
+    width:50px;
+    margin:10px;
+}
+
+
+/* Parent 2 */
+
+.parent2{
+    background-color:#3498db;
+    width:50%;
+    height:150px;
+    display:flex;
+    flex-direction:row-reverse;
+    margin-bottom:20px;
+}
+
+.child2{
+    background-color:#2980b9;
+    height:50px;
+    width:50px;
+    margin:10px;
+}
+
+
+/* Parent 3 */
+
+.parent3{
+    background-color:#9b59b6;
+    width:50%;
+    height:400px;
+    display:flex;
+    flex-direction:column;
+    margin-bottom:20px;
+}
+
+.child3{
+    background-color:#8e44ad;
+    height:50px;
+    width:50px;
+    margin:10px;
+}
+
+
+/* Parent 4 */
+
+.parent4{
+    background-color:#f39c12;
+    width:50%;
+    height:400px;
+    display:flex;
+    flex-direction:column-reverse;
+}
+
+.child4{
+    background-color:#d35400;
+    height:50px;
+    width:50px;
+    margin:10px;
+}
+
+
+/* flex-direction he main axis ko decide karti h  */
+
+

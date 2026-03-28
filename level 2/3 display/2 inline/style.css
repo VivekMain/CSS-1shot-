@@ -1,0 +1,40 @@
+/* Display property */
+
+/* inline               */
+/* block                */
+/* inline-block         */
+/* none                 */
+
+/* div, h1, h2, h3, p...     etc              are block (take full width bydefault)*/
+/* span, a, input, button... etc              are inline(take only element req. space*/
+
+
+
+
+
+
+div{
+    height: 200px;
+    width: 200px;
+    margin: 20px;
+    padding: 30px;
+    display:inline;
+}
+
+.box1{
+    background-color: wheat;
+}
+.box2{
+    background-color: rgb(106, 97, 81);
+}
+
+.box3{
+    background-color: rgb(50, 44, 34);
+}
+
+
+
+/* When we set inline the element comes to element space (ignoring the height and width)  */
+
+/* Pro :                                                                             */
+/* Inline-block is used to set the elements inline (but with height and weight too)  */

@@ -1,0 +1,92 @@
+html,body{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
+.parent{
+    min-height: 100vh;
+}
+
+
+
+.c1{
+    position: relative;
+}
+.c1 h1{
+    font-size: 3rem;
+    font-weight: 500;
+    position: absolute;
+    left: 50px  ;
+    top: 200px;
+}
+.c1 p{
+    position: absolute;
+    top: 300px;
+    left: 50px;
+}
+.c1 button{
+    background-color: darkorange;
+    width: 150px;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    position: absolute;
+    top: 400px;
+    left: 50px;
+}
+
+.c1 h2{
+    position: absolute;
+    top: 10px;
+    left: 50px;
+}
+
+.c1 i{
+    position: absolute;
+    top: 650px;
+    left: 700px;
+}
+
+
+
+
+
+
+/* right side card */
+.right-card{
+    height: 100%;
+    width: 50%;
+
+    background-image: url("https://images.unsplash.com/photo-1772516912383-2d8d51fc53f1?q=80&w=735&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-size: contain;
+    background-position: center;
+
+    position: absolute;
+    top: 0;
+    right: 0;
+
+}
+
+
+.navbar{
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    background: rgba(255,255,255,0.2); /* transparent background */
+    backdrop-filter: blur(10px);       /* blur effect */
+    -webkit-backdrop-filter: blur(10px); /* Safari support */
+}
+
+.navbar a{
+    color: white;
+    text-decoration: none
+}

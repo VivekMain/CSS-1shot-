@@ -1,0 +1,19 @@
+.parent{
+    background-color: lightblue;
+    height: 300px;
+    width: 400px;
+
+    display: flex;
+    /* flex-direction: row; */
+    /* flex-wrap: wrap; */
+    /* instead of these proerties we use this:    */
+    flex-flow: wrap row ;
+    
+}
+
+.child{
+    background-color: blue;
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+}

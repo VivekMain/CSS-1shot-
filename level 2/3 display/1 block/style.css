@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+
+
+/* Block                ------->                     full width of screen                     */
+/* Inline   ----> only element width */
+
+
+
+/* changing the display of *h1*: block to inline by custom */
+h1{
+    display: inline;
+}
+/* changing the display of *button*: inline to block by custom */
+button{
+    display: block;
+}
